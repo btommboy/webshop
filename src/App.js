@@ -1,14 +1,15 @@
 import React from 'react'
 
-import HomePage from './homepage.component'
-import "./homepage.styles.scss"
+import './App.css'
+
+import HomePage from '../src/pages/homepage/homepage.component'
 
 function App() {
   return (
     <div>
       <HomePage />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
